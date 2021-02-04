@@ -1,9 +1,14 @@
-.today-container {
+.today-date,
+.today-day {
   font-size: 50px;
   font-weight: 700;
 }
 
-.clock-container {
+.today-date {
+  margin-right: 10px;
+}
+
+.today-clock {
   font-size: 168px;
   font-weight: 800;
 }
