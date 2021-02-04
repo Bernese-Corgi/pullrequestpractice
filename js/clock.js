@@ -21,7 +21,10 @@ const $todayYear = document.querySelector('.today-year');
 const $todayMonth = document.querySelector('.today-month');
 const $todayDate = document.querySelector('.today-date');
 const $todayDay = document.querySelector('.today-day');
+const $todayHour = document.querySelector('.clock-hour');
+const $todayMinute = document.querySelector('.clock-minute');
 
+// 1. today
 $todayYear.textContent = year;
 $todayMonth.textContent = month;
 $todayDate.textContent = date;
@@ -44,3 +47,7 @@ switch (day) {
     break;
   default: $todayDay.textContent = 'Invalid day';
 }
+
+// 2. clock
+$todayHour.textContent = hour;
+$todayMinute.textContent = minute;
